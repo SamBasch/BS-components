@@ -1,35 +1,23 @@
 /* sticky footer start */
 
-    html, body {
+html,
+body {
 
-        height: 100%;
-    }
-
-    body {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .content {
-        flex: 1 0 auto;
-        margin-top: 1rem;
-    }
-    
-    footer {
-        flex-shrink: 0;
-    }
-
-/* sticky footer end */
-
-
-
-/* sticky sidebar start */
-
-.stickysb {
-    position: fixed;
-    top: 0;
-    left: 0;
+    height: 100%;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
 
-/* sticky sidebar end */
+.content {
+    flex: 1 0 auto;
+    margin-top: 1rem;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+/* sticky footer end */
